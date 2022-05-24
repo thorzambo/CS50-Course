@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdbool.h>
 #include <cs50.h>
 
 int main(void) {
@@ -6,13 +7,13 @@ int main(void) {
     // must input positive value not 0 or under
     int n;
     do {
-        n = get_int("Width ");
+        n = scanf("Width ");
     }
     while (n < 1);
 
     //alternatively
     int n;
-    while(true) {
+    while (true) {
         n = get_int("Height ");
         if (n > 0) {
             break;
@@ -26,7 +27,7 @@ int main(void) {
         for (int j = 0; j < n; j++) {
 
             // print brick
-            print("#");
+            printf("#");
         }
         // move to next row
         printf("\n");

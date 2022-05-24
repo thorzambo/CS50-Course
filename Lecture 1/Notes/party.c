@@ -1,4 +1,4 @@
-#include <cs50.h>
+
 #include <stdio.h>
 
 
@@ -8,8 +8,8 @@ int main(void) {
 
     // if n is even
     if  (n % 2 == 0) {
-        printf("Even\n")
+        printf("Even\n");
     } else {
-        printf("Odd\n")
+        printf("Odd\n");
     }
 }

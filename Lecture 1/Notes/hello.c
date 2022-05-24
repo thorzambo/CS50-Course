@@ -1,5 +1,6 @@
 #include <cs50.h>
-#include <stdint.h>
+#include <stdio.h>
+
 
 int main(void) {
     string_answer = get_string("What is your name? ");

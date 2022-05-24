@@ -1,5 +1,6 @@
 #include <cs50.h>
-#include <stdint.h>
+#include <stdio.h>
+
 
 float discout(float price, int percentage);
 

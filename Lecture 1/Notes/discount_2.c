@@ -2,15 +2,23 @@
 #include <stdio.h>
 
 
-float discout(float price, int percentage);
-
 int main(void) {
-    float regular = get_float("Regular price: ");
-    int percent_off = get_int("Percent off: ");
-    float sale = discount(regular, percent_off);
-    printf("Sale price: %.2f\n", sale);
+    // comments
+    // const is final must capitalize
+    const int NUMBER = get_int(2000);
+    float x = get_float("x :");
+    float y = get_float("y :");
+    float z = x + y;
+    printf("%.2f\n", z); // .2 like round
+
+    if (z < NUMBER) {
+        printf("z is less than 2000\n");
+    } else if (x == NUMBER) {
+        printf("x is equal to 2000\n");
+    } else {
+        print(" x is more than 2000\n");
+    }
 }
 
-float discout(float price, int percentage) {
-    return price * ((100-percentage) / 100);
-}
+// int limit +- 2000000000;
+// after that you switch to long for perform any calculations

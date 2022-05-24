@@ -12,7 +12,7 @@ int main(void) {
     printf("%i\n", z);
 
     if (z < NUMBER) {
-        printf("z is less than 2000\n")
+        printf("z is less than 2000\n");
     } else if (x == NUMBER) {
         printf("x is equal to 2000\n");
     } else {
